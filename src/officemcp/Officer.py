@@ -242,7 +242,7 @@ class TheOfficer:
 
     def Demonstrate(self)->str:
         if not self.DemonstrateExcel():
-            return  "There's Excel installed or something wrong"
+            return  "There's no Excel installed or something wrong"
         if not self.DemonstratePowerPoint():
             return "There's no PowerPoint installed or something wrong"
         return "Demo succesed"
